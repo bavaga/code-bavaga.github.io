@@ -1,0 +1,35 @@
+.progress-indicator {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px black solid;
+}
+
+.progress-indicator.quarter {
+    background: conic-gradient(
+            black 0% 25%,
+            transparent 25%
+    )
+}
+
+.progress-indicator.half {
+    background: conic-gradient(
+            black 0% 50%,
+            transparent 50%
+    )
+}
+
+.progress-indicator.three-quarters {
+    background: conic-gradient(
+            black 0% 75%,
+            transparent 75%
+    )
+}
+
+.progress-indicator.full {
+    background: conic-gradient(
+            black 0% 100%,
+            transparent 100%
+    )
+}

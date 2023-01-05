@@ -1,0 +1,32 @@
+.progress-indicator {
+    --size: 100px;
+    --color: black;
+    --value: 0%;
+    --border-width: 2px;
+    
+    display: inline-block;
+    width: var(--size);
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: var(--border-width) var(--color) solid;
+    background: conic-gradient(
+            var(--color) 0% var(--value),
+            transparent var(--value)
+    )
+}
+
+.progress-indicator.quarter {
+    --value: 25%;
+}
+
+.progress-indicator.half {
+    --value: 50%;
+}
+
+.progress-indicator.three-quarters {
+    --value: 75%;
+}
+
+.progress-indicator.full {
+    --value: 100%;
+}

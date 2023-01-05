@@ -1,0 +1,15 @@
+.progress-indicator {
+    --size: 100px;
+    --color: black;
+    --border-width: 2px;
+
+    display: inline-block;
+    width: var(--size);
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: var(--border-width) var(--color) solid;
+    background: conic-gradient(
+            var(--color) 0% clamp(0%, attr(data-value, %, 0%), 100%),
+            transparent clamp(0%, attr(data-value, %, 0%), 100%)
+    )
+}

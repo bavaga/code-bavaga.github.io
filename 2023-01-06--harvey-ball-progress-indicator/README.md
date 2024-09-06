@@ -1,1 +1,1 @@
-This code is part of the blog post [Let's create a Harvey Ball Progress Indicator using CSS](https://www.bavaga.com/blog/posts/2023-01-06--lets-create-a-harvey-ball-progress-indicator-using-css/).
+This code is part of the blog post [How to Build a Customizable Progress Indicator Using Pure CSS: A Harvey Ball Example](https://www.bavaga.com/blog/2023/01/06/customizable-progress-indicator-pure-css-harvey-ball/).

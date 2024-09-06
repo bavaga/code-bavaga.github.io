@@ -1,0 +1,7 @@
+.progress-indicator {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px black solid;
+}

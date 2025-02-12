@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Striped Background with pure CSS</title>
+        <style>
+            .striped-background {
+                background-image: repeating-linear-gradient(
+                        45deg,
+                        #e1e1e1 0,
+                        #e1e1e1 1px,
+                        transparent 0,
+                        transparent 50%
+                );
+                background-size: 10px 10px;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    <body class="striped-background">
+
+    </body>
+</html>
